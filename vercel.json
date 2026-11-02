@@ -19,6 +19,11 @@
       "source": "/examples/:page{/}?",
       "destination": "/recipes/:page/",
       "permanent": true
+    },
+    {
+      "source": "/guides/inference_guide{/}?",
+      "destination": "/guides/inference-guide/",
+      "permanent": true
     }
   ],
   "rewrites": [
