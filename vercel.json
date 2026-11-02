@@ -21,8 +21,8 @@
       "permanent": true
     },
     {
-      "source": "/guides/inferenece_guide{/}?",
-      destination": "/guides/inference-guide/",
+      "source": "/guides/inference_guide{/}?",
+      "destination": "/guides/inference-guide/",
       "permanent": true
     }
   ],
