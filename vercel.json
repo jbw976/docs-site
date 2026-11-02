@@ -3,6 +3,24 @@
   "framework": null,
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/examples/anthropic-messages-api{/}?",
+      "destination": "/guides/anthropic-messages-api/",
+      "permanent": true
+    },
+    {
+      "source": "/examples/collecting-engine-metrics{/}?",
+      "destination": "/platform/telemetry/",
+      "permanent": true
+    },
+    { "source": "/examples{/}?", "destination": "/recipes/", "permanent": true },
+    {
+      "source": "/examples/:page{/}?",
+      "destination": "/recipes/:page/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/mcp", "destination": "/api/mcp" },
     {
